@@ -1,0 +1,14 @@
+:root { font-family: Inter, system-ui, sans-serif; }
+body { margin: 0; background: #0f1220; color: #e8ebff; }
+main { max-width: 980px; margin: 0 auto; padding: 24px; }
+.card { background: #1a1f35; border: 1px solid #2e365d; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+input, select, button { margin: 6px 0; padding: 8px; border-radius: 8px; border: 1px solid #3f4a7a; background: #0f1430; color: #fff; }
+button { cursor: pointer; }
+label { display: block; }
+.drop-zone { border: 2px dashed #6b78c8; border-radius: 12px; padding: 18px; text-align: center; margin-bottom: 10px; }
+.drag-over { background: #242d56; }
+pre { overflow: auto; }
+.code-window { background: #101321; border-radius: 8px; padding: 10px; }
+.match-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 6px 0; }
+.debug-panel summary { cursor: pointer; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; }
